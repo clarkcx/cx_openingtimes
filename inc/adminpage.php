@@ -26,14 +26,14 @@ class CXSettingsPageOpeningTimes
             'Opening Times', 
             'manage_options', 
             'cx-openingtimes-admin', 
-            array( $this, 'create_admin_page' )
+            array( $this, 'create_admin_page_opening_times' )
         );
     }
 
     /**
      * Options page callback
      */
-    public function create_admin_page()
+    public function create_admin_page_opening_times()
     {
         // Set class property
         $this->options = get_option( 'cx_openingtimes' );
