@@ -24,7 +24,7 @@ class CXSettingsPageOpeningTimes
         add_options_page(
             'Settings Admin', 
             'Opening Times', 
-            'manage_options', 
+            'view_opening_times', 
             'cx-openingtimes-admin', 
             array( $this, 'create_admin_page_opening_times' )
         );
